@@ -9,23 +9,23 @@ class Gallery extends StatelessWidget {
         title: Text(
           'Gallery',
           style: TextStyle(
-            color: Colors.purple.shade900,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),
         ),
-        // centerTitle: true,
+        centerTitle: true,
         elevation: 0.0,
         backgroundColor: Colors.pinkAccent,
-        actions: <Widget>[
-          Padding(
-            padding: EdgeInsets.all(5.0),
-            child: CircleAvatar(
-              backgroundImage: AssetImage('assets/images/Asli.jpg'),
-              radius: 25,
-            ),
-          ),
-        ],
+        // actions: <Widget>[
+        //   Padding(
+        //     padding: EdgeInsets.all(5.0),
+        //     child: CircleAvatar(
+        //       backgroundImage: AssetImage('assets/images/Asli.jpg'),
+        //       radius: 25,
+        //     ),
+        //   ),
+        // ],
       ),
       body: Container(
         padding: EdgeInsets.all(8),

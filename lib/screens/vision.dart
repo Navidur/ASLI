@@ -9,28 +9,28 @@ class Vision extends StatelessWidget {
         title: Text(
           'Vision & Mission',
           style: TextStyle(
-            color: Colors.purple.shade900,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),
         ),
-        // centerTitle: true,
+        centerTitle: true,
         elevation: 5,
         backgroundColor: Colors.pinkAccent,
-        actions: <Widget>[
-          Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: CircleAvatar(
-              backgroundImage: AssetImage('assets/images/Asli.jpg'),
-              radius: 25,
-            ),
-          ),
-          // IconButton(
-          //     icon: Icon(Icons.close),
-          //     onPressed: () {
-          //       Navigator.pushNamed(context, 'about');
-          //     }),
-        ],
+        // actions: <Widget>[
+        //   Padding(
+        //     padding: const EdgeInsets.all(5.0),
+        //     child: CircleAvatar(
+        //       backgroundImage: AssetImage('assets/images/Asli.jpg'),
+        //       radius: 25,
+        //     ),
+        //   ),
+        //   // IconButton(
+        //   //     icon: Icon(Icons.close),
+        //   //     onPressed: () {
+        //   //       Navigator.pushNamed(context, 'about');
+        //   //     }),
+        // ],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

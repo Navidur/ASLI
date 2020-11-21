@@ -8,26 +8,27 @@ class DonateUs extends StatelessWidget {
         title: Text(
           'Donate Us',
           style: TextStyle(
-            color: Colors.purple.shade900,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),
         ),
+        centerTitle: true,
         elevation: 0.0,
         backgroundColor: Colors.pinkAccent,
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {Navigator.popAndPushNamed(context, 'home');},
         ),
-        actions: <Widget>[
-          Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: CircleAvatar(
-              backgroundImage: AssetImage('assets/images/Asli.jpg'),
-              radius: 25,
-            ),
-          ),
-        ],
+        // actions: <Widget>[
+        //   Padding(
+        //     padding: const EdgeInsets.all(5.0),
+        //     child: CircleAvatar(
+        //       backgroundImage: AssetImage('assets/images/Asli.jpg'),
+        //       radius: 25,
+        //     ),
+        //   ),
+        // ],
       ),
       body: Container(
         alignment: Alignment.center,
