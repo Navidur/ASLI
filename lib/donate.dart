@@ -23,13 +23,13 @@ class DonateButton extends StatelessWidget {
         color:Colors.purple.shade900,
               child: InkWell(
           onTap: () {
-            Navigator.popAndPushNamed(context, 'donate');
+            Navigator.pushReplacementNamed(context, 'donate');
           },
           child: Text(
             'Donate Us',
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
+              // fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
           ),

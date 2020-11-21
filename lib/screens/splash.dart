@@ -11,7 +11,7 @@ class _MySplashState extends State<MySplash> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 7,
+      seconds: 3,
       navigateAfterSeconds: AfterSplash(),
       title: Text('Welcome to Aspiring Lives',
       style: TextStyle(

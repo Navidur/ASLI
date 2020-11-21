@@ -45,7 +45,7 @@ class DonateUs extends StatelessWidget {
             width: MediaQuery.of(context).size.width * 0.95,
             height: MediaQuery.of(context).size.width * 1.4,
             decoration: BoxDecoration(
-                // color: Colors.blue,
+               
                 ),
           ),
         ),

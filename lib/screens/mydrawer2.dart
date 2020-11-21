@@ -151,7 +151,9 @@ class MyDrawer2 extends StatelessWidget {
                   color: Colors.pinkAccent,
                   size: 30,
                 ),
-                onTap: () {Navigator.popAndPushNamed(context,'donate');},
+                onTap: () {
+                  Navigator.popAndPushNamed(context, 'donate');
+                },
               ),
             ),
           ],

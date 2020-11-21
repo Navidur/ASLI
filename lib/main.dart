@@ -14,22 +14,29 @@ import 'package:test2/screens/vision.dart';
 import 'package:test2/screens/working.dart';
 
 void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    initialRoute: 'splash',
-    routes: {
-      'splash': (_) => MySplash(),
-      'home': (_) => Home(),
-      'about': (_) => AboutUs(),
-      'vision': (_) => Vision(),
-      'objectives': (_) => Objectives(),
-      'board': (_) => Board(),
-      'contact': (_) => Contact(),
-      'gallery': (_) => Gallery(),
-      'projects': (_) => Projects(),
-      'maps': (_) => Maps(),
-      'donate': (_) => DonateUs(),
-      'working': (_) => Working(),
-    },
-  ));
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: 'splash',
+      routes: {
+        'splash': (_) => MySplash(),
+        'home': (_) => Home(),
+        'about': (_) => AboutUs(),
+        'vision': (_) => Vision(),
+        'objectives': (_) => Objectives(),
+        'board': (_) => Board(),
+        'contact': (_) => Contact(),
+        'gallery': (_) => Gallery(),
+        'projects': (_) => Projects(),
+        'maps': (_) => Maps(),
+        'donate': (_) => DonateUs(),
+        'working': (_) => Working(),
+      },
+    );
+  }
 }
