@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class Gallery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -27,6 +28,10 @@ class Gallery extends StatelessWidget {
         //   ),
         // ],
       ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed:(){Navigator.popAndPushNamed(context, 'about');}, 
+        label: Text('videos'),backgroundColor: Colors.purple[900],),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       body: Container(
         padding: EdgeInsets.all(8),
         child: GridView.count(
