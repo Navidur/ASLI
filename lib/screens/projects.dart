@@ -169,7 +169,7 @@ class Projects extends StatelessWidget {
                         ),
                         Container(
                           child: Image.network(
-                            'https://leverageedu.com/blog/wp-content/uploads/2019/11/What-is-Career-Counselling.png',
+                            'https://d1hny4jmju3rds.cloudfront.net/hubs_and_spokes_images/counselling/rsz_career_counselling.jpg',
                             fit: BoxFit.fill,
                           ),
                           width: MediaQuery.of(context).size.width * 0.7,
