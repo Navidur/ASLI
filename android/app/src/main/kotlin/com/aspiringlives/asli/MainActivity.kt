@@ -1,4 +1,4 @@
-package com.example.test2
+package com.aspiringlives.asli
 
 import io.flutter.embedding.android.FlutterActivity
 
